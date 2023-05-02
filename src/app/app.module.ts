@@ -12,7 +12,7 @@ import { IconComponent } from './components/icon/icon.component';
 @NgModule({
   declarations: [
     AppComponent,
-    IconComponent
+    IconComponent,
   ],
   imports: [
     BrowserModule,
@@ -21,7 +21,7 @@ import { IconComponent } from './components/icon/icon.component';
     ToastrModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot({
-      positionClass :'toast-bottom-right'
+      positionClass: 'toast-bottom-right'
     })
   ],
   providers: [],
